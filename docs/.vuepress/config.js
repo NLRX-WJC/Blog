@@ -1,6 +1,6 @@
 const path = require("path");
 module.exports = {
-  base: "/",
+  base: "/Blog/",
   dest: "dist",
   title: "难凉热血",
   markdown: {
