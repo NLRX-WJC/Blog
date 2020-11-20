@@ -107,6 +107,24 @@ module.exports = {
         ]
       },
       {
+        title: "剑指offer-JavaScript题解",
+        collapsable: true,
+        sidebarDepth: 0,
+        children: [
+          ["sword-offer-by-JavaScript/01.栈的压入、弹出序列.md", "01.栈的压入、弹出序列"],
+          ["sword-offer-by-JavaScript/02.用两个栈实现队列.md", "02.用两个栈实现队列"],
+          ["sword-offer-by-JavaScript/03.调整数组顺序使奇数位于偶数前面.md", "03.调整数组顺序使奇数位于偶数前面"],
+          ["sword-offer-by-JavaScript/04.包含min函数的栈.md", "04.包含min函数的栈"],
+          ["sword-offer-by-JavaScript/05.从尾到头打印链表.md", "05.从尾到头打印链表"],
+          ["sword-offer-by-JavaScript/06.二维数组中的查找.md", "06.二维数组中的查找"],
+          ["sword-offer-by-JavaScript/07.合并两个排序的链表.md", "07.合并两个排序的链表"],
+          ["sword-offer-by-JavaScript/08.旋转数组的最小数字.md", "08.旋转数组的最小数字"],
+          ["sword-offer-by-JavaScript/09.链表中倒数第k个结点.md", "09.链表中倒数第k个结点"],
+          ["sword-offer-by-JavaScript/10.两个链表的第一个公共结点.md", "10.两个链表的第一个公共结点"],
+          ["sword-offer-by-JavaScript/11.反转链表.md", "11.反转链表"],
+        ]
+      },
+      {
         title: "使用TypeScript重构axios",
         collapsable: true,
         children: [
@@ -136,6 +154,13 @@ module.exports = {
           ["axios/23.添加withCredentials属性.md", "23.添加withCredentials属性"],
           ["axios/24.防御XSRF攻击.md", "24.防御XSRF攻击"],
           ["axios/25.文件上传下载进度监控.md", "25.文件上传下载进度监控"],
+          ["axios/26.添加HTTP授权auth属性.md", "26.添加HTTP授权auth属性"],
+          ["axios/27.添加请求状态码合法性校验.md", "27.添加请求状态码合法性校验"],
+          ["axios/28.自定义序列化请求参数.md", "28.自定义序列化请求参数"],
+          ["axios/29.添加baseURL.md", "29.添加baseURL"],
+          ["axios/30.添加axios.getUrl方法.md", "30.添加axios.getUrl方法"],
+          ["axios/31.添加axios.all和axios.spread方法.md", "31.添加axios.all和axios.spread方法"],
+          ["axios/32.写在最后面.md", "32.写在最后面"],
         ]
       },
       {
