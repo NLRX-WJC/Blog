@@ -1,5 +1,5 @@
 {
-  "name": "Learn-Redux-Source-Code",
+  "name": "Blog",
   "version": "1.0.0",
   "description": "",
   "directories": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NLRX-WJC/Learn-Redux-Source-Code.git"
+    "url": "git+https://github.com/NLRX-WJC/Blog.git"
   },
   "keywords": [],
   "author": "NLRX",
