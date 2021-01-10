@@ -109,7 +109,7 @@ module.exports = {
       {
         title: "TypeScript",
         collapsable: true,
-        sidebarDepth: 1,
+        sidebarDepth: 0,
         children: [
           ["typescript/01.基础类型.md", "01.基础类型"],
           ["typescript/02.接口.md", "02.接口"],
@@ -118,6 +118,12 @@ module.exports = {
           ["typescript/05.泛型.md", "05.泛型"],
           ["typescript/06.其他.md", "06.其他"],
         ],
+      },
+      {
+        title: "教妹子学Koa2",
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [["koa2/01.环境准备.md", "01.环境准备"]],
       },
       {
         title: "数据结构",
