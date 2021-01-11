@@ -123,7 +123,10 @@ module.exports = {
         title: "教妹子学Koa2",
         collapsable: true,
         sidebarDepth: 1,
-        children: [["koa2/01.环境准备.md", "01.环境准备"]],
+        children: [
+          ["koa2/01.环境准备.md", "01.环境准备"],
+          ["koa2/02.中间件.md", "02.中间件"],
+        ],
       },
       {
         title: "数据结构",
