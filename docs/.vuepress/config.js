@@ -122,13 +122,14 @@ module.exports = {
       {
         title: "教兄弟女朋友学Koa2",
         collapsable: true,
-        sidebarDepth: 1,
+        sidebarDepth: 2,
         children: [
           ["koa2/00.前言.md", "00.前言"],
           ["koa2/01.环境准备.md", "01.环境准备"],
           ["koa2/02.中间件.md", "02.中间件"],
           ["koa2/03.路由.md", "03.路由"],
           ["koa2/04.解析请求参数.md", "04.解析请求参数"],
+          ["koa2/05.数据库.md", "05.数据库"],
         ],
       },
       {
