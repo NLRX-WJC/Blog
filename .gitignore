@@ -2,4 +2,3 @@ node_modules
 docs/.vuepress/dist/
 dist
 .vscode
-**/*/.DS_Store
