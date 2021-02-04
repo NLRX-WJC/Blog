@@ -109,7 +109,7 @@ module.exports = {
       {
         title: "TypeScript",
         collapsable: true,
-        sidebarDepth: 0,
+        sidebarDepth: 2,
         children: [
           ["typescript/01.基础类型.md", "01.基础类型"],
           ["typescript/02.接口.md", "02.接口"],
