@@ -111,12 +111,27 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 2,
         children: [
-          ["typescript/01.基础类型.md", "01.基础类型"],
-          ["typescript/02.接口.md", "02.接口"],
-          ["typescript/03.类.md", "03.类"],
-          ["typescript/04.函数.md", "04.函数"],
-          ["typescript/05.泛型.md", "05.泛型"],
-          ["typescript/06.其他.md", "06.其他"],
+          {
+            title: "基础篇",
+            collapsable: true,
+            path: "/typescript/basic/01.基础类型",
+            sidebarDepth: 3,
+            children: [
+              ["/typescript/basic/01.基础类型.md", "01.基础类型"],
+              ["/typescript/basic/02.接口.md", "02.接口"],
+              ["/typescript/basic/03.类.md", "03.类"],
+              ["/typescript/basic/04.函数.md", "04.函数"],
+              ["/typescript/basic/05.泛型.md", "05.泛型"],
+              ["/typescript/basic/06.其他.md", "06.其他"],
+            ],
+          },
+          {
+            title: "高级篇",
+            collapsable: true,
+            path: "/typescript/advanced/01.工具类型",
+            sidebarDepth: 3,
+            children: [["/typescript/advanced/01.工具类型.md", "01.工具类型"]],
+          },
         ],
       },
       {
