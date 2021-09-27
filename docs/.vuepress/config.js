@@ -107,6 +107,14 @@ module.exports = {
         ],
       },
       {
+        title: "Docker",
+        collapsable: true,
+        sidebarDepth: 2,
+        children: [
+          ["docker/Dockerfile的最佳实践.md", "Dockerfile的最佳实践"],
+        ],
+      },
+      {
         title: "TypeScript",
         collapsable: true,
         sidebarDepth: 2,
