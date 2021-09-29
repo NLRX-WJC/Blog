@@ -109,9 +109,37 @@ module.exports = {
       {
         title: "Docker",
         collapsable: true,
-        sidebarDepth: 2,
         children: [
-          ["docker/Dockerfile的最佳实践.md", "Dockerfile的最佳实践"],
+          {
+            title: "基本概念",
+            collapsable: true,
+            path: "/docker/basic/",
+            children: [
+              ["/docker/basic/", "综述"],
+              ["/docker/basic/container", "Docker 容器"],
+              ["/docker/basic/image", "Docker 镜像"],
+            ],
+          },
+          {
+            title: "操作容器",
+            collapsable: true,
+            path: "/docker/container/",
+            children: [
+              ["/docker/container/", "综述"],
+              ["/docker/container/run", "启动容器"],
+              ["/docker/container/daemon", "后台运行容器"],
+              ["/docker/container/stop", "终止容器"],
+              ["/docker/container/list", "列出容器"],
+              ["/docker/container/attach_exec", "进入容器"],
+              ["/docker/container/import_export", "导出和导入容器"],
+              ["/docker/container/rm", "删除容器"],
+            ],
+          },
+          {
+            title: "Dockerfile的最佳实践",
+            collapsable: true,
+            path: "docker/Dockerfile的最佳实践.md",
+          },
         ],
       },
       {
