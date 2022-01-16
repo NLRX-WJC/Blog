@@ -136,6 +136,15 @@ module.exports = {
             ],
           },
           {
+            title: "数据管理",
+            collapsable: true,
+            path: "/docker/data-manage/",
+            children: [
+              ["/docker/data-manage/", "综述"],
+              ["/docker/data-manage/volume", "数据卷"],
+            ],
+          },
+          {
             title: "Dockerfile的最佳实践",
             collapsable: true,
             path: "docker/Dockerfile的最佳实践.md",
