@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "commit": "git cz",
-    "deploy": "sh deploy.sh"
+    "commit": "git cz"
   },
   "repository": {
     "type": "git",
