@@ -31,6 +31,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.BlogCI }}
+          ACCESS_TOKEN: ${{ secrets.Blog_action }}
           BRANCH: gh-pages
           FOLDER: dist
