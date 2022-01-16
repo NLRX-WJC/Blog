@@ -25,12 +25,11 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: npm install && npm run build
-
+        run: npm install
       # 部署到 GitHub Pages
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.Blog_action }}
+          GITHUB_TOKEN: ${{ secrets.Blog_action }}
           BRANCH: gh-pages
           FOLDER: dist
