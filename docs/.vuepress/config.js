@@ -65,10 +65,22 @@ module.exports = {
         path: "/about/",
       },
       {
-        title: "React",
+        title: "深入React系列",
         collapsable: true,
         sidebarDepth: 2,
-        children: [["react/01.React基础.md", "01.React基础"]],
+        children: [
+          {
+            title: "深入React-Hook",
+            collapsable: true,
+            sidebarDepth: 2,
+            path: "/react/hook/为什么需要Hooks",
+            children: [
+              ["/react/hook/为什么需要Hooks.md", "为什么需要Hooks"],
+              ["/react/hook/Hooks工作机制.md", "Hooks工作机制"],
+            ],
+          },
+          ["/react/深入React生命周期.md", "深入React生命周期"],
+        ],
       },
       {
         title: "JavaScript",
