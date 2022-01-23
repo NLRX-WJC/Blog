@@ -70,7 +70,7 @@ module.exports = {
         sidebarDepth: 2,
         children: [
           {
-            title: "深入React-Hook",
+            title: "深入React Hooks",
             collapsable: true,
             sidebarDepth: 2,
             path: "/react/hook/为什么需要Hooks",
