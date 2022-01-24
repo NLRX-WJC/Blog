@@ -79,7 +79,17 @@ module.exports = {
               ["/react/hook/Hooks工作机制.md", "Hooks工作机制"],
             ],
           },
-          ["/react/深入React生命周期.md", "深入React生命周期"],
+          {
+            title: "深入React生命周期",
+            collapsable: true,
+            sidebarDepth: 2,
+            path: "/react/lifecycle/旧版",
+            children: [
+              ["/react/lifecycle/旧版.md", "旧版"],
+              ["/react/lifecycle/新版.md", "新版"],
+            ],
+          },
+          ["/react/如何优雅的实现组件逻辑复用.md", "如何优雅的实现组件逻辑复用"],
         ],
       },
       {
