@@ -65,12 +65,12 @@ module.exports = {
         path: "/about/",
       },
       {
-        title: "深入React系列",
+        title: "深入理解React",
         collapsable: true,
         sidebarDepth: 2,
         children: [
           {
-            title: "深入React Hooks",
+            title: "深入理解React Hooks",
             collapsable: true,
             sidebarDepth: 2,
             path: "/react/hook/为什么需要Hooks",
@@ -80,7 +80,7 @@ module.exports = {
             ],
           },
           {
-            title: "深入React生命周期",
+            title: "深入理解React生命周期",
             collapsable: true,
             sidebarDepth: 2,
             path: "/react/lifecycle/旧版",
@@ -89,6 +89,8 @@ module.exports = {
               ["/react/lifecycle/新版.md", "新版"],
             ],
           },
+          ["/react/理解React中的事务机制.md", "理解React中的事务机制"],
+          ["/react/setState到底是同步的，还是异步的.md", "setState到底是同步的，还是异步的"],
           ["/react/如何优雅的实现组件逻辑复用.md", "如何优雅的实现组件逻辑复用"],
         ],
       },
