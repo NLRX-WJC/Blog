@@ -122,6 +122,20 @@ module.exports = {
         ],
       },
       {
+        title: "Promise",
+        collapsable: true,
+        children: [
+          [
+            "promise/all.md",
+            "promise.all",
+          ],
+          [
+            "promise/race.md",
+            "promise.race",
+          ],
+        ],
+      },
+      {
         title: "webpack",
         collapsable: true,
         sidebarDepth: 2,
