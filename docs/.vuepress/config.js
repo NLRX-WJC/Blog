@@ -133,6 +133,10 @@ module.exports = {
             "promise/race.md",
             "promise.race",
           ],
+          [
+            "promise/allSettled.md",
+            "promise.allSettled",
+          ],
         ],
       },
       {
