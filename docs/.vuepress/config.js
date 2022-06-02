@@ -58,6 +58,12 @@ module.exports = {
     lastUpdated: "上次更新",
     sidebarDepth: 0,
     logo: "/logo.png",
+    nav: [
+      {
+        text: '逐行剖析Vue.js源码',
+        link: 'https://nlrx-wjc.github.io/Learn-Vue-Source-Code/'
+      }
+    ],
     sidebar: [
       {
         title: "关于作者",
