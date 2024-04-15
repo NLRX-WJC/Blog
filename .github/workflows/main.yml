@@ -19,18 +19,16 @@ jobs:
     steps:
       # 拉取代码
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
-          node-version: 20
-          persist-credentials: false
+          fetch-depth: 0 
 
       # 生成静态文件
       - name: Build
         run: yarn && npm run build 
       # 部署到 GitHub Pages
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          GITHUB_TOKEN: ${{ secrets.Blog_action }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          github_token: ${{ secrets.Blog_action }}
+          publish_dir: dist
